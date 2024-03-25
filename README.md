@@ -109,7 +109,7 @@ HTML (Hyper Text Markup Language)
 * HTML Forms are required. When you want to collect some data from the site visitor. For example, during user registration you would like to collect information such as name. Email address, credit card, etc.
 * There are various form elements available like text fields. Textarca fields, drop-down menus, radio buttons, cheekboxes, etc.
 * The HTML, <form> tag is used to create an HTML form and it has following syntax
-```
+```html
 <form action - "Script URL" method - "GET POST">
     form elements like input, textarea etc.
 </form>    
