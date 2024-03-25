@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Webpage
+        </title>
+    </head>
+    <body>
+        <h3>
+            Forms in html.
+        </h3>
+        <form>
+            Enter your name:<br/>
+            <input type="text" name="username" />
+        </form><br/>
+        <form>
+            Enter your emailid:<br/>
+            <input type="email" name="email" />
+        </form><br/>
+        <form>
+            Enter your password:<br/>
+            <input type="password" placeholder="Password" name="password" />
+        </form><br/>
+        <form>
+            Enter your Description:<br/>
+            <textarea rows="5" cols="30">
+            </textarea>
+        </form><br/>
+        <form>
+            <label for="gender">
+                Gender:
+            </label>
+            <input type="radio" id="gender" name="gender" value="male" />Male
+            <input type="radio" id="gender" name="gender" value="female" />Female<br/>
+            <input type="submit" value="submit" />
+        </form><br/>
+        <form>    
+            <p>
+                Which programming language should you know?
+            </p>
+            <select name="dropdown">
+                <option value="C language">
+                    C Language
+                </option>
+                <option value="C++">
+                    C++
+                </option>
+                <option value="Java">
+                    Java
+                </option>
+                <option value="Python">
+                    Python
+                </option>
+            </select>
+        </form><br/>
+        <form>    
+            <p>
+                Which programming language should you know?
+            </p>
+            <select name="dropdown">
+                <option value="C language">
+                    C Language
+                </option>
+                <option value="C++">
+                    C++
+                </option>
+                <option value="Java" selected>
+                    Java
+                </option>
+                <option value="Python">
+                    Python
+                </option>
+            </select>
+        </form><br/>
+        <form>
+            <p>
+                Which is your favourite subject?
+            </p>
+            <input type="checkbox" name="maths" value="on"/>Maths<br/>
+            <input type="checkbox" name="english" value="on"/>English<br/>
+            <input type="checkbox" name="telugu" value="on"/>Telugu
+        </form><br/>
+        <form>
+            <p>
+                Upload image
+            </p>
+            <input type="file" name="fileupload" accept="image/*"/><br/>
+            <input type="button" name="ok" value="Ok">
+        </form><br/>
+        <form method="POST">
+            <p>
+                Name:
+            </p>
+            <input type="text" name="firstname" placeholder="Enter you Name"/><br/>
+            <p>
+                Age:
+            </p>
+            <input type="number" name="age" placeholder="Enter you Age"/><br/>
+            <p>
+                
+            </p>
+            <input type="button" name="submit" value="Submit"/><br/>
+        </form>
+        <p>
+
+        </p>
+        <form method="POST" action="secondwebpage.html">
+            <p>
+                Name:
+            </p>
+            <input type="text" name="firstname" placeholder="Enter you Name"/><br/>
+            <p>
+                Age:
+            </p>
+            <input type="number" name="age" placeholder="Enter you Age"/><br/>
+            <p>
+                
+            </p>
+            <a href="secondwebpage.html"><input type="button" name="submit" value="Submit"/></a><br/>
+        </form><br/>
+        <p>
+
+        </p><br/>
+
+        <form method="POST" action="secondwebpage.html">
+            <fieldset>
+                <legend>
+                    Enter your Details
+                </legend>
+            <p>
+                Name:
+            </p>
+            <input type="text" name="firstname" placeholder="Enter you Name"/><br/>
+            <p>
+                Age:
+            </p>
+            <input type="number" name="age" placeholder="Enter you Age"/><br/>
+            <p>
+                
+            </p>
+            <a href="secondwebpage.html"><input type="button" name="submit" value="Submit"/></a><br/>
+        </form>
+
+    </body>
+</html>
